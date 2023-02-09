@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE04742929948EAE00EF377D /* NSOutlineViewTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04742829948EAE00EF377D /* NSOutlineViewTestApp.swift */; };
+		CE04742B29948EAE00EF377D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04742A29948EAE00EF377D /* ContentView.swift */; };
+		CE04742D29948EB000EF377D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE04742C29948EB000EF377D /* Assets.xcassets */; };
+		CE04743029948EB000EF377D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE04742F29948EB000EF377D /* Preview Assets.xcassets */; };
+		CE04745929948EEB00EF377D /* OutlineView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04744929948EEB00EF377D /* OutlineView2.swift */; };
+		CE04745A29948EEB00EF377D /* Visibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04744A29948EEB00EF377D /* Visibility.swift */; };
+		CE04745B29948EEB00EF377D /* OutlineViewUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04744B29948EEB00EF377D /* OutlineViewUpdater.swift */; };
+		CE04745C29948EEB00EF377D /* NSOutlineView2+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04744C29948EEB00EF377D /* NSOutlineView2+.swift */; };
+		CE04745D29948EEB00EF377D /* DragItemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04744E29948EEB00EF377D /* DragItemInfo.swift */; };
+		CE04745E29948EEB00EF377D /* OutlineViewItemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04744F29948EEB00EF377D /* OutlineViewItemInfo.swift */; };
+		CE04745F29948EEB00EF377D /* DropItemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04745029948EEB00EF377D /* DropItemInfo.swift */; };
+		CE04746029948EEB00EF377D /* StringMangling.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04745129948EEB00EF377D /* StringMangling.swift */; };
+		CE04746129948EEB00EF377D /* OutlineViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04745229948EEB00EF377D /* OutlineViewItem.swift */; };
+		CE04746229948EEB00EF377D /* NSEdgeInsets+Zero.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04745329948EEB00EF377D /* NSEdgeInsets+Zero.swift */; };
+		CE04746329948EEB00EF377D /* NSOutlineView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04745429948EEB00EF377D /* NSOutlineView2.swift */; };
+		CE04746429948EEB00EF377D /* OutlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04745529948EEB00EF377D /* OutlineViewController.swift */; };
+		CE04746529948EEB00EF377D /* AdjustableSeparatorRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04745629948EEB00EF377D /* AdjustableSeparatorRowView.swift */; };
+		CE04746629948EEB00EF377D /* OutlineViewDataSource2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04745729948EEB00EF377D /* OutlineViewDataSource2.swift */; };
+		CE04746729948EEB00EF377D /* OutlineViewDelegate2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04745829948EEB00EF377D /* OutlineViewDelegate2.swift */; };
+		CE04746929948F6D00EF377D /* FileItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04746829948F6D00EF377D /* FileItem.swift */; };
+		CE04746B29948FC300EF377D /* ContextMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04746A29948FC300EF377D /* ContextMenuItem.swift */; };
+		CE04746D29948FE700EF377D /* DefaultsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04746C29948FE700EF377D /* DefaultsStorage.swift */; };
+		CE04746F2994905200EF377D /* MenuHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04746E2994905200EF377D /* MenuHandler.swift */; };
+		CE04747129949D9B00EF377D /* CellWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04747029949D9B00EF377D /* CellWrapper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE04742529948EAE00EF377D /* NSOutlineViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSOutlineViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE04742829948EAE00EF377D /* NSOutlineViewTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSOutlineViewTestApp.swift; sourceTree = "<group>"; };
+		CE04742A29948EAE00EF377D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE04742C29948EB000EF377D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE04742F29948EB000EF377D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE04743129948EB000EF377D /* NSOutlineViewTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSOutlineViewTest.entitlements; sourceTree = "<group>"; };
+		CE04744929948EEB00EF377D /* OutlineView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlineView2.swift; sourceTree = "<group>"; };
+		CE04744A29948EEB00EF377D /* Visibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Visibility.swift; sourceTree = "<group>"; };
+		CE04744B29948EEB00EF377D /* OutlineViewUpdater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlineViewUpdater.swift; sourceTree = "<group>"; };
+		CE04744C29948EEB00EF377D /* NSOutlineView2+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSOutlineView2+.swift"; sourceTree = "<group>"; };
+		CE04744E29948EEB00EF377D /* DragItemInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragItemInfo.swift; sourceTree = "<group>"; };
+		CE04744F29948EEB00EF377D /* OutlineViewItemInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlineViewItemInfo.swift; sourceTree = "<group>"; };
+		CE04745029948EEB00EF377D /* DropItemInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropItemInfo.swift; sourceTree = "<group>"; };
+		CE04745129948EEB00EF377D /* StringMangling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringMangling.swift; sourceTree = "<group>"; };
+		CE04745229948EEB00EF377D /* OutlineViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlineViewItem.swift; sourceTree = "<group>"; };
+		CE04745329948EEB00EF377D /* NSEdgeInsets+Zero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSEdgeInsets+Zero.swift"; sourceTree = "<group>"; };
+		CE04745429948EEB00EF377D /* NSOutlineView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSOutlineView2.swift; sourceTree = "<group>"; };
+		CE04745529948EEB00EF377D /* OutlineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlineViewController.swift; sourceTree = "<group>"; };
+		CE04745629948EEB00EF377D /* AdjustableSeparatorRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustableSeparatorRowView.swift; sourceTree = "<group>"; };
+		CE04745729948EEB00EF377D /* OutlineViewDataSource2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlineViewDataSource2.swift; sourceTree = "<group>"; };
+		CE04745829948EEB00EF377D /* OutlineViewDelegate2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlineViewDelegate2.swift; sourceTree = "<group>"; };
+		CE04746829948F6D00EF377D /* FileItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileItem.swift; sourceTree = "<group>"; };
+		CE04746A29948FC300EF377D /* ContextMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuItem.swift; sourceTree = "<group>"; };
+		CE04746C29948FE700EF377D /* DefaultsStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultsStorage.swift; sourceTree = "<group>"; };
+		CE04746E2994905200EF377D /* MenuHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHandler.swift; sourceTree = "<group>"; };
+		CE04747029949D9B00EF377D /* CellWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellWrapper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE04742229948EAE00EF377D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE04741C29948EAE00EF377D = {
+			isa = PBXGroup;
+			children = (
+				CE04742729948EAE00EF377D /* NSOutlineViewTest */,
+				CE04742629948EAE00EF377D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE04742629948EAE00EF377D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE04742529948EAE00EF377D /* NSOutlineViewTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE04742729948EAE00EF377D /* NSOutlineViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				CE04744829948EEB00EF377D /* OutlineView */,
+				CE04742829948EAE00EF377D /* NSOutlineViewTestApp.swift */,
+				CE04742A29948EAE00EF377D /* ContentView.swift */,
+				CE04746829948F6D00EF377D /* FileItem.swift */,
+				CE04742C29948EB000EF377D /* Assets.xcassets */,
+				CE04743129948EB000EF377D /* NSOutlineViewTest.entitlements */,
+				CE04742E29948EB000EF377D /* Preview Content */,
+				CE04746A29948FC300EF377D /* ContextMenuItem.swift */,
+				CE04746C29948FE700EF377D /* DefaultsStorage.swift */,
+				CE04746E2994905200EF377D /* MenuHandler.swift */,
+				CE04747029949D9B00EF377D /* CellWrapper.swift */,
+			);
+			path = NSOutlineViewTest;
+			sourceTree = "<group>";
+		};
+		CE04742E29948EB000EF377D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE04742F29948EB000EF377D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE04744829948EEB00EF377D /* OutlineView */ = {
+			isa = PBXGroup;
+			children = (
+				CE04744D29948EEB00EF377D /* Models */,
+				CE04744929948EEB00EF377D /* OutlineView2.swift */,
+				CE04744A29948EEB00EF377D /* Visibility.swift */,
+				CE04744B29948EEB00EF377D /* OutlineViewUpdater.swift */,
+				CE04744C29948EEB00EF377D /* NSOutlineView2+.swift */,
+				CE04745129948EEB00EF377D /* StringMangling.swift */,
+				CE04745229948EEB00EF377D /* OutlineViewItem.swift */,
+				CE04745329948EEB00EF377D /* NSEdgeInsets+Zero.swift */,
+				CE04745429948EEB00EF377D /* NSOutlineView2.swift */,
+				CE04745529948EEB00EF377D /* OutlineViewController.swift */,
+				CE04745629948EEB00EF377D /* AdjustableSeparatorRowView.swift */,
+				CE04745729948EEB00EF377D /* OutlineViewDataSource2.swift */,
+				CE04745829948EEB00EF377D /* OutlineViewDelegate2.swift */,
+			);
+			path = OutlineView;
+			sourceTree = "<group>";
+		};
+		CE04744D29948EEB00EF377D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE04744E29948EEB00EF377D /* DragItemInfo.swift */,
+				CE04744F29948EEB00EF377D /* OutlineViewItemInfo.swift */,
+				CE04745029948EEB00EF377D /* DropItemInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE04742429948EAE00EF377D /* NSOutlineViewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE04743429948EB000EF377D /* Build configuration list for PBXNativeTarget "NSOutlineViewTest" */;
+			buildPhases = (
+				CE04742129948EAE00EF377D /* Sources */,
+				CE04742229948EAE00EF377D /* Frameworks */,
+				CE04742329948EAE00EF377D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSOutlineViewTest;
+			productName = NSOutlineViewTest;
+			productReference = CE04742529948EAE00EF377D /* NSOutlineViewTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE04741D29948EAE00EF377D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					CE04742429948EAE00EF377D = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = CE04742029948EAE00EF377D /* Build configuration list for PBXProject "NSOutlineViewTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE04741C29948EAE00EF377D;
+			productRefGroup = CE04742629948EAE00EF377D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE04742429948EAE00EF377D /* NSOutlineViewTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE04742329948EAE00EF377D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE04743029948EB000EF377D /* Preview Assets.xcassets in Resources */,
+				CE04742D29948EB000EF377D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE04742129948EAE00EF377D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE04746329948EEB00EF377D /* NSOutlineView2.swift in Sources */,
+				CE04745929948EEB00EF377D /* OutlineView2.swift in Sources */,
+				CE04746029948EEB00EF377D /* StringMangling.swift in Sources */,
+				CE04742B29948EAE00EF377D /* ContentView.swift in Sources */,
+				CE04745E29948EEB00EF377D /* OutlineViewItemInfo.swift in Sources */,
+				CE04746D29948FE700EF377D /* DefaultsStorage.swift in Sources */,
+				CE04746B29948FC300EF377D /* ContextMenuItem.swift in Sources */,
+				CE04746F2994905200EF377D /* MenuHandler.swift in Sources */,
+				CE04746429948EEB00EF377D /* OutlineViewController.swift in Sources */,
+				CE04746729948EEB00EF377D /* OutlineViewDelegate2.swift in Sources */,
+				CE04746529948EEB00EF377D /* AdjustableSeparatorRowView.swift in Sources */,
+				CE04745B29948EEB00EF377D /* OutlineViewUpdater.swift in Sources */,
+				CE04745C29948EEB00EF377D /* NSOutlineView2+.swift in Sources */,
+				CE04747129949D9B00EF377D /* CellWrapper.swift in Sources */,
+				CE04746929948F6D00EF377D /* FileItem.swift in Sources */,
+				CE04745F29948EEB00EF377D /* DropItemInfo.swift in Sources */,
+				CE04746129948EEB00EF377D /* OutlineViewItem.swift in Sources */,
+				CE04745D29948EEB00EF377D /* DragItemInfo.swift in Sources */,
+				CE04746229948EEB00EF377D /* NSEdgeInsets+Zero.swift in Sources */,
+				CE04742929948EAE00EF377D /* NSOutlineViewTestApp.swift in Sources */,
+				CE04745A29948EEB00EF377D /* Visibility.swift in Sources */,
+				CE04746629948EEB00EF377D /* OutlineViewDataSource2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE04743229948EB000EF377D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE04743329948EB000EF377D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CE04743529948EB000EF377D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NSOutlineViewTest/NSOutlineViewTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NSOutlineViewTest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.textRenderer.TextRenderer.NSOutlineViewTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CE04743629948EB000EF377D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NSOutlineViewTest/NSOutlineViewTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NSOutlineViewTest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.textRenderer.TextRenderer.NSOutlineViewTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE04742029948EAE00EF377D /* Build configuration list for PBXProject "NSOutlineViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE04743229948EB000EF377D /* Debug */,
+				CE04743329948EB000EF377D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE04743429948EB000EF377D /* Build configuration list for PBXNativeTarget "NSOutlineViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE04743529948EB000EF377D /* Debug */,
+				CE04743629948EB000EF377D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE04741D29948EAE00EF377D /* Project object */;
+}
